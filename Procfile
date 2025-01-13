@@ -1,0 +1,1 @@
+web: gunicorn universidad.wsgi --timeout 300 --keep-alive 300 --log-level debug --log-file -
